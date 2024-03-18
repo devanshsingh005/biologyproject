@@ -1,0 +1,302 @@
+body {
+   
+    padding: 0;
+    margin:0 ;
+    font-family: sans-serif;
+
+}
+
+
+    /* 222831
+    31363F
+76ABAE
+EEEEEE */
+
+.floating-animation {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    /* background-color: #ffffff;
+    border: 1px solid #ddd; */
+    margin-top: 20px;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  
+.new1{
+    background-color:#222831 ;
+color: #222831;
+}
+
+
+
+
+.navbar {
+    list-style: none;
+    text-align: center;
+
+
+}
+
+.navbar li {
+    display: inline;
+    /* margin: 0 0px; */
+    float: left;
+    margin-left: 15px;
+
+
+}
+.navbar1{
+    background-color: #222831;
+    padding: 52px;
+    margin: auto;
+    color: antiquewhite;
+    
+}
+.search{
+    margin: 12px;
+    background-color:white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 4px ;
+    text-align: center;
+    color: #31363F;
+    float: right;
+    margin-left: 400px;
+    border: 0px solid white;
+    
+        
+}
+#logo{
+    width: 20px;
+    height: 20px;
+    color: #31363F;
+    margin-right: 5px;
+    
+}
+.menu{
+
+    width: 30px;
+    height: 30px;
+    
+}
+.about{
+    color:#31363F ;
+}
+.about-section{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+#side{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#image-gif {
+    width: 50%;
+    height: 100px;
+
+}
+#image-gif img{
+    border-radius: 15px;
+}
+.about{
+    width: 100%;;
+}
+.banner{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+#heading1{
+    text-align: center;
+    padding: 20px;
+    font-size:30px;
+    margin: 20px auto;
+    color: #31363F;
+}
+
+.organs-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.organs-section h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+    background-color: #fff;
+    color: #333;
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    background-color: #f0f0f0;
+    color: #333;
+    transform: rotateY(180deg);
+    padding: 20px;
+    
+
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+.procedures-section {
+    padding: 40px;
+}
+
+.procedures-section h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.procedure-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.procedure {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.procedure strong {
+    font-size: 20px;
+}
+
+.procedure p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.best-companies-section {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.best-companies-section h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.companies-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.company a {
+    font-size: 18px;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.company a:hover {
+    text-decoration: underline;
+}
+
+.company p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 5px;
+}
